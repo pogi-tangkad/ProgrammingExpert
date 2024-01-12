@@ -5,3 +5,6 @@
 print('hello')
 print('taco')
 print('lovely')
+
+for i in range(10):
+    print(i)
