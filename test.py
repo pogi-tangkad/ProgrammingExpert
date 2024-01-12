@@ -3,3 +3,5 @@
 # Author: Kevin Repking
 
 print('hello')
+print('taco')
+print('lovely')
