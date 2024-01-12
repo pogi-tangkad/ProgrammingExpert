@@ -1,7 +1,4 @@
-#!/usr/bin/python3
-# Date: 2024-01-12
-# Author: Kevin Repking
+def taco(yummy, yum):
+    return yummy + yum
 
-#this is just a new file
 
-print("taco")
