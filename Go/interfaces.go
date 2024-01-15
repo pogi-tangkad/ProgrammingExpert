@@ -4,7 +4,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 )
 
@@ -47,7 +46,7 @@ func main() {
 	// panic("i failed")
 	// fmt.Println("goodbye")
 	
-	defer handlePanic()
+	// defer handlePanic()
 	// fmt.Println("start")
 	// doPanic()
 	// fmt.Println("end")
@@ -55,25 +54,41 @@ func main() {
 	// result, err := divide(1, 0)
 	// fmt.Println(result, err)
 
-	
+	// arr1 :=	[]int{1, 2, 3, 4, 5}
+	// arr2 := []int{1, 2, 3, 4, 5}
+	// xyz(&arr1, arr2)
+	// fmt.Println(arr1, arr2)
+
+	// jkl(arr2)
+	// fmt.Println(arr2)
+
+
 
 }
 
+// func jkl(arr []int) {
+// 	arr[1] = 8
+// }
+
+// func xyz(a1 *[]int, a2 []int) {
+// 	(*a1)[0] = 10
+// 	a2 = *a1
+// }
 
 // func divide(a int, b int) (int, error) {
 // 	if b == 0 {
 // 		return 0, errors.New("do not divide by zero, silly")
 // 	}
 // 	return a / b, nil
-}
+// }
 
-func doPanic() {
-	panic("fail")
-}
+// func doPanic() {
+// 	panic("fail")
+// }
 
-func handlePanic() {
-	r := recover()
-	if r != nil {
-		fmt.Println(r)
-	}
-}
+// func handlePanic() {
+// 	r := recover()
+// 	if r != nil {
+// 		fmt.Println(r)
+// 	}
+// }
